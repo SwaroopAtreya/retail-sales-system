@@ -159,8 +159,8 @@ npm run dev
 ```
 
 ### 4. Access Application
-- Frontend: `http://localhost:3000`
-- Backend API: `http://localhost:5000`
+- Frontend: `https://retail-sales-system-production.up.railway.app/`
+- Backend API: `https://retail-sales-system-jwdm.onrender.com`
 
 ### Production Deployment
 
