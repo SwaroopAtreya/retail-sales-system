@@ -1,7 +1,11 @@
 {
   "name": "retail-system-root",
   "private": true,
+  "main": "backend/src/index.js",
   "scripts": {
-    "setup": "echo 'Run npm install in both backend and frontend'"
+    "start": "cd backend && node src/index.js",
+    "dev": "cd backend && npm run dev",
+    "build": "cd backend && npm install && npx prisma generate && npx prisma db push --skip-generate"
   }
 }
+
