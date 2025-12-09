@@ -1,0 +1,7 @@
+{
+  "name": "retail-system-root",
+  "private": true,
+  "scripts": {
+    "setup": "echo 'Run npm install in both backend and frontend'"
+  }
+}
